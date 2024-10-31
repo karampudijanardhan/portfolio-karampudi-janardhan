@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(janardhan6.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    padding: 15px 20px;
+}
+.navigation a{
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -1px;
+    background-color: orange;
+    left: 0;
+    transform: scale(0);
+    
+}
+.navigation a:hover::after{
+    transform: scale(1);
+    width:100%;
+}
+
+.button{
+    height: 50px;
+    width: 130px;
+    background-color: antiquewhite;
+    color:green;
+    border: 2px solid #5183a4;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+.button:hover{
+    background-color: #fff;
+    color: black;
+}
+.jana{
+    height: 450px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.jana h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jana h1:hover{
+    color: orangered;
+    width: 100%;
+}
+.jana1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    color: aqua;
+}
+.jana1 input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color:tomato;
+
+}
+.remember{
+    justify-content: space-between;
+    padding: 10px;
+    color: antiquewhite;
+    width: 100%;
+}
+.remember:hover{
+    color: fuchsia;
+}
+.remember a{
+    color: red;
+    text-decoration: none;
+}
+.remember a:hover{
+    color: crimson;
+}
+.bt{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: green;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: greenyellow;
+    color: magenta;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.register{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 205, 58);
+    padding: 20px;
+}
+.register a{
+    color: orange;
+    text-decoration: none;
+}
+.register:hover{
+    color: chocolate;
+}
+.register a:hover{
+    color: mediumpurple;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Services</a>
+        <button class="button">Login</button>
+        </nav>
+    </header>
+    <div class="jana">
+        <form action="#" id="yy">
+            <h1>Login</h1>
+            <div class="jana1">
+            <label>Email</label>
+            <input type="text" placeholder="Username" required id="email">
+            </div>
+            <div class="jana1">
+                <label>Passowrd</label>
+                <input type="password" placeholder="passowrd" required id="passowrd">
+            </div>
+            <div class="remember">
+                <label><input type="checkbox">Remember me</label>
+                <a href="">Forgetpassword</a>
+            </div>
+            <button type="login" class="bt" onclick="fun()" target="blank">login</button>
+            <div class="register">
+                <p>Don't Have Account</p>
+                <a href="">Register?</a>
+            </div>
+            </script>
+        </form>
+    </div>
+    <script src="jana14.js"></script>
+</body>
+</html>
