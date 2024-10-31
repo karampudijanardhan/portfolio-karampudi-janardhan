@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(janardhana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    top: 0;
+    left: 0;
+    
+}
+.boxbutton{
+    font-size: 2.5rem;
+    color: #fff;
+    float: right;
+    line-height: 30px;
+    margin-right: 10x;
+}
+#check{
+    display: none;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+.tt{
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.navigation a{
+    padding: 20px;
+    align-items: center;
+    color: tomato;
+    position:relative;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border:none;
+    outline: none;
+}
+.navigation a::after{
+content: '';
+position:absolute;
+width: 100%;
+height: 3px;
+background-color: orangered;
+left: 0;
+bottom: -4px;
+transform: scale(0);
+}
+.navigation a:hover::after{
+    transform: scale(1);
+}
+.navigation a:hover{
+    color: #fff;
+}
+.jana{
+    width: 180px;
+    height: 35px;
+    position: relative;
+    border: 2px solid orangered;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+}
+.jana:hover{
+background-color: aquamarine;
+}
+.bt{
+    width: 100px;
+    height: 36px;
+    border: 2px solid orangered;
+    background-color:white;
+    color:black;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.bt:hover{
+    background-color: tomato;
+}
+.bt:focus{
+    outline: none;
+}
+.jana:focus{
+    outline: none;
+}
+.janardhan{
+    position: relative;
+    padding: 150px;
+    line-height: 30px; 
+    bottom: 30px; 
+    color:white;
+    font-size: 1.1rem;
+    font-weight: 400;  
+}
+.janardhan a{
+    text-decoration: none;
+}
+.aa{
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.bb{
+    color:orangered;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 60px;     
+}
+.cc{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid yellow;
+    border-radius: 11px;
+    background-color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: white;
+}
+.sri7{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    position: absolute;
+    height: 430px;
+    padding: 10px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    top: 110px;
+    left: 800px;
+}
+.sri7 h2{
+    color: tomato;
+    position: relative;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.jana1{
+    color: aqua;
+    padding: 20px;
+}
+.jana1 input{
+    position:relative;
+    width: 100%;
+    height: 40px;
+    padding:20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    color: cyan;
+    background: transparent;
+    font-weight: 500;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.remember:hover{
+    color: aqua;
+}
+.remember a{
+    color: hotpink;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.remember a:hover{
+    color: lime;
+}
+.dd{
+    width: 200px;
+    height:40px ;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    background-color: tomato;
+    font-size: 1.3rem;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.dd:hover{
+    background-color: #fff;
+}
+.register{
+text-align: center;
+margin-top: 10px;
+}
+.register a{
+    color: lightgreen;margin-top: 3px;
+}
+.register a:hover{
+    color: blue;
+}
+.sticker{
+    font-size: 1.9rem;
+    margin-top: 30px;
+    margin-left: 70px;
+    letter-spacing: 5px;
+    color:#fff;
+}
+.sticker:hover{
+    color: tomato;
+}
+.sri{
+    width: 380px;
+    height: 350px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    left: 450px;
+    top: 200px;
+}
+.sri input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:transparent;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.sri input:hover{
+    background-color: #fff;
+}
+.rigi{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: transparent;
+}
+.rigi:hover{
+    background-color: #fff;
+}
+.rigi a{
+    text-decoration: none;
+}
+.paragraph{
+    color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.paragraph:hover{
+    color:orangered;
+}
+.paragraph a{
+    margin-left: 20px;
+    text-decoration: none; 
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+}
+.paragraph a:hover{
+    color:tomato;
+}

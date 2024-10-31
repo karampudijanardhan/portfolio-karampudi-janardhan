@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            display: flex;
+            background-color: tomato;
+        }
+        .jana{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border: 2px solid tomato;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .jana h1{
+            color: tomato;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .jana1{
+            width: 100%;
+            position: relative;
+            padding: 10px;
+            padding-top: 10px;
+        }
+        .jana1 input{
+            width: 100%;
+            height: 40px;
+            border: 2px solid tomato;
+            border-radius: 20px;
+            padding: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            background-color: azure;
+        }
+        .jan2 p{
+            color: blue;
+            padding: 10px;
+            padding-right: 10px;
+        }
+        .jan2 p:hover{
+         color:red;
+        }
+        .jan2 a{
+            font-size: 1.4rem;
+            font-weight: 400;
+            text-decoration: none;
+            color: tomato;
+            padding-left: 80px;
+        }
+        .jan2 a:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="jana">
+        <h1>Reset Password</h1>
+       <div class="jana1">
+        <input type="password" id="passowrd" placeholder="Create New Password">
+       </div>
+       <div class="jana1">
+        <input type="password" id="confirm" placeholder="Confirm Password">
+       </div>
+       <div class="jan2">
+       <p>I have account?<a onclick="res()">Reset</p>
+       </div>
+    </div>
+    <script src="jana17.js"></script>
+</body>
+</html>

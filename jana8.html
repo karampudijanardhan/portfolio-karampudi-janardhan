@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .jana{
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            margin-left: 85px;
+            margin-top: 30px;
+            background-color: #fff;
+            width: 50%;
+        }
+        .jana1{
+            padding: 50px;
+            width: 200px;
+            height: 150px;
+            border: 2px solid tomato;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 23px;
+            background-color:#fff;
+        }
+        .jana1 i{
+          font-size: 2.4rem;
+          position: absolute;
+          top: 65px;
+          color:tomato;
+          padding-left: 60px;
+        }
+        .login{
+            display: flex;
+            width: 400px;
+            height: 300px;
+            border: 2px solid tomato;
+            border-radius: 2px;
+            margin-left: 130px;
+        }
+        .jana3{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+        }
+        .jana3 input{
+            display: flex;
+            position: relative;
+            width: 350px;
+            height: 40px;
+            border: 2px solid tomato;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 1rem;
+             font-weight: 400;
+            padding-left: 30px;         
+            background-color:transparent;
+        }
+        .jana3 input:hover{
+            background-color: aqua;
+        }
+        .sub{
+            width: 400px;
+            height: 40px;
+            border: 2px solid tomato;
+            border-radius: 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .sub a{
+            text-decoration: none;
+        }
+      .sub:hover{
+        background-color: tomato;
+        color:#fff ;
+      }
+      .get{
+      margin-left: 600px;
+      display: flex;
+      flex-direction: column;
+      }
+    </style>
+</head>
+<body>
+    <div class="jana">
+        <div class="jana1">         
+            <h1>Address</h1>
+            <br>
+            <p>Andhra Pradesh</p>
+            <p>Nellore Dist</p>
+            <p>podhalakur mandal</p>
+            <p>Weavers Colonny 524309</p>
+            <i class='bx bx-map'></i>
+        </div>
+        <div class="jana1">
+            <h1>PhoneNumber</h1>
+            <br>
+            <p>Ph:9121971848</p>
+            <p>Ph:7416204305</p>
+            <p>888-0123-4567(toll free)</p>
+            <i class='bx bx-phone'></i>
+        </div>
+        <div class="jana1">
+            <h1>Emial</h1>
+            <br><br>
+            <a href="">janardhankarampudi@gmial.com</a>
+            <i class='bx bxl-gmail'></i>
+        </div>
+    </div>
+    <div class="login">
+     <form>
+        <div class="jana3">
+            <b>Email</b>
+            <input id="email" type="email" placeholder="Enter a valid emial address" required>
+        </div>
+        <div class="jana3">
+            <b>Name</b>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+        </div>
+        <div class="jana3">
+            <b>Message</b>
+            <input type="text" id="message"  placeholder="Enter Your Message" required>
+        </div>
+        <button  class="sub" onclick="sub()" type="button">SUBMIT</button>
+     </form>
+    </div>
+    <script src="jana16.js"></script>
+</body>
+</html>

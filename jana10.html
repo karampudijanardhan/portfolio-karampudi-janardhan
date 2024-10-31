@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(janardhana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    top: 0;
+    left: 0;
+    
+}
+.tt{
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.navigation a{
+    padding: 20px;
+    align-items: center;
+    color: tomato;
+    position:relative;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 20px;
+    border:none;
+    outline: none;
+}
+.navigation a::after{
+content: '';
+position:absolute;
+width: 100%;
+height: 3px;
+background-color: orangered;
+left: 0;
+bottom: -4px;
+transform: scale(0);
+}
+.navigation a:hover::after{
+    transform: scale(1);
+}
+.navigation a:hover{
+    color: #fff;
+}
+.sri h1{
+color: tomato;
+text-align: center;
+padding-top: 20px;
+}
+.sri img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid tomato;
+    border-radius: 50%;
+    margin-left: 540px;
+}
+.sri p{
+line-height: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+padding-top: 20px;
+color:white;
+}
+.sri a{
+    text-align: center;
+    margin-left: 700px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:red;
+}
+.sri a:hover{
+    color: fuchsia;
+}
+    </style>
+</head>
+<body>
+    <body>
+        <header>
+            <h1 class="tt">PraROZ</h1>
+                <nav class="navigation">
+                <a href="jana18.html">Home</a>
+                <a href="jana5.html">About</a>
+                <a href="jana8.html">Contact</a>
+                <a href="">portfololio</a>
+            <label class="search">
+            <input  class="jana"  type="Search" placeholder="Type to Search">
+            <button class="bt">Search</button>
+            </nav>
+        </header>
+        <div class="sri">
+        <h1>KARAMPUDI JANARDHAN</h1><br>
+        <img src="janardhan5.jpg" alt="image" ><br>
+        <p>I am passionate web developer with a focus on front-end technologies.<br>I am currently pursuing 
+            my B.tech in Sri Venkateswara college of engeneering and technology in chittor.<br> I have
+             learn Web Development from code with janardhan.<br>You can 
+             Click here to Checkout What learnt in HTML CSS JS</p>
+             <a href="jana9.html">Read more</a>
+             </div> 
+</body>
+</html>
