@@ -3,7 +3,7 @@ var mail=document.getElementById("email").value;
 var pass=document.getElementById("passowrd").value;
    if(mail=="janardhankarampudi@gmail.com"&&pass=="kvramana")
    {
-    window.location.href="jana.REUME.pdf";
+    window.location.href="karampudijanardhan.REUME.pdf";
     confirm("login succesfull");
    }
    else{

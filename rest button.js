@@ -3,7 +3,7 @@ function res(){
     var con=document.getElementById("confirm").value;
        if(pass=="kvramana"&&con=="kvramana")
        {
-        window.location.href="jana1.html";
+        window.location.href="login.html";
         confirm("Rest succesfully");
        }
        else{

@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+@media screen {
+    max-width: 200px;
+}
 body{
     background-image: url(janardhana.jpg);
     background-repeat: no-repeat;

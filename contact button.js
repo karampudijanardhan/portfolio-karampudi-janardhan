@@ -4,7 +4,7 @@ function sub(){
     var mess=document.getElementById("message").value;
        if(mail==="janardhankarampudi@gmail.com"&&nam==="janardhan"&&mess==="welcome to java script")
        {
-        window.location.href="jana10.html";
+        window.location.href="portfolio.html";
         confirm("sumbit succesfull");
        }
        else{

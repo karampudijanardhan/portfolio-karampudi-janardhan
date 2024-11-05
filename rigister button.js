@@ -4,7 +4,7 @@ function regi(){
     var names=document.getElementById("name").value;
        if(mail=="janardhankarampudi@gmail.com"&&pass=="kvramana"&&names=="karampudi janardhan")
        {
-        window.location.href="jana1.html";
+        window.location.href="login.html";
         confirm("Register succesfull");
        }
        else{

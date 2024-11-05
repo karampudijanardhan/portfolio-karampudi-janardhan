@@ -1,4 +1,4 @@
 function myfun(){
-    window.location.href="jana1.html";
+    window.location.href="home.html";
     window.confirm("sumbit sucesfuuly");
 }
